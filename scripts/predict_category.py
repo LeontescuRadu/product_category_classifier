@@ -22,7 +22,7 @@ def predict_category(title):
     clean = clean_title(title)
     x_text = tfidf.transform([clean])
     x_features = np.array([[len(clean), len(clean.split()), int(bool(re.search(r'\d', clean)))]])
-    x = hstack([x_text, x_features])
+    x = np.hstack([x_text.toarray(), x_features])
     pred = model.predict(x)
     return pred[0]
 
@@ -33,3 +33,4 @@ while True:
         break
     category = predict_category(title)
     print(f"Categoria prezisa: {category}\n")
+
