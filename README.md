@@ -53,6 +53,7 @@ python scripts/train_model.py
 
 ### Testare interactiva
 python scripts/predict_category.py
+
 Introduceti titlul produsului si modelul va prezice categoria.
 
 ## Contributii
