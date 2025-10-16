@@ -11,14 +11,24 @@ Modelul foloseste tehnici de preprocesare a textului si algoritmi de machine lea
 
 ## Structura proiectului
 product-category-classifier/
+
 -data/ # date brute și procesate
+ 
  --products.csv
+
 -notebooks/ # notebook-uri Jupyter/Colab
+
 -scripts/ # scripturi Python
- --train_model.py
+ 
+ -train_model.py
+ 
  --predict_category.py
+
 -models/ # modelele antrenate (.pkl)
+
 -README.md
+
+-requirements.txt
 
 ## Instalare
 1. Cloneaza repozitoriul:
@@ -27,8 +37,11 @@ git clone https://github.com/username/product-category-classifier.git
 cd product-category-classifier
 
 2. Creeaza un mediu virtual si instaleaza dependintele:
+
 python -m venv venv
+
 source venv/bin/activate # Linux / Mac
+
 venv\Scripts\activate # Windows
 
 pip install -r requirements.txt
