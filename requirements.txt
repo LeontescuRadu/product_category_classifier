@@ -1,0 +1,3 @@
+- Python 3.9+
+- Pip
+- Librarii: pandas, numpy, scikit-learn, scipy, matplotlib, seaborn
