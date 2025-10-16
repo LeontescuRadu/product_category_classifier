@@ -20,7 +20,7 @@ product-category-classifier/
 
 -scripts/ # scripturi Python
  
- -train_model.py
+ --train_model.py
  
  --predict_category.py
 
